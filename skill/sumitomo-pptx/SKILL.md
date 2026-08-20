@@ -308,17 +308,31 @@ python "<SKILL_DIR>/assets/build.py" spec.json output.pptx
   ```
 - テキスト抽出で流し込み漏れ・文字化けがないか。
 - **全ページを画像化して自分で目視し、直してから納品する**（必須）。
-  はみ出し・重なり・不自然な余白・読みにくさを見つけたら、`figure` の箱を大きくする／文言を短くする／
-  ページを分けるなどして直し、**再ビルドしてもう一度PNGで確認する**。
-  文字が箱からはみ出すのは16pt下限があるとよく起きるので、必ず目で見る。
-  直し切らないまま「できました」と報告しない。PowerPoint COM が使えるなら:
-  ```powershell
-  $pp=New-Object -ComObject PowerPoint.Application
-  $pres=$pp.Presentations.Open("$PWD\out.pptx",$true,$false,$false)
-  $pres.Export("$PWD\render","PNG",1600,900); $pres.Close(); $pp.Quit()
+  **OS で手順を変える必要はない。次の1コマンドが環境を自動判別する。**
+
+  ```bash
+  python "<SKILL_DIR>/assets/render.py" out.pptx -o render
   ```
-  出力された PNG を実際に読んで確認する。PowerPoint COM が無い環境ではその旨を利用者に伝え、
-  「目視確認が未実施」であることを明示して渡す（黙って省略しない）。
+
+  出力された PNG の絶対パスが一覧表示されるので、**実際に開いて目で見る**。
+  一覧が出ただけでは確認したことにならない。
+  はみ出し・重なり・不自然な余白・読みにくさを見つけたら、`figure` の箱を大きくする／
+  文言を短くする／ページを分けるなどして直し、**再ビルドしてもう一度 render.py で確認する**。
+  文字が箱からはみ出すのは16pt下限があるとよく起きるので、必ず目で見る。
+  直し切らないまま「できました」と報告しない。
+
+  render.py が内部で選ぶ経路（利用者に説明が要るときのため）:
+
+  | 環境 | 経路 | 必要なもの |
+  |---|---|---|
+  | **Windows + PowerPoint** | PowerPoint COM で直接PNG（最も忠実） | `python -m pip install pywin32` |
+  | **Windows（PowerPointなし）** | LibreOffice → PDF → PNG | LibreOffice |
+  | **Linux / クラウド** | LibreOffice → PDF → PNG | `apt-get install -y libreoffice-impress poppler-utils` |
+  | **macOS** | LibreOffice → PDF → PNG | `brew install --cask libreoffice && brew install poppler` |
+
+  **どの経路も使えない場合だけ**、目視QAを飛ばしてよい。そのときは
+  「目視確認が未実施」であることを利用者に必ず伝える（黙って省略しない）。
+  render.py は足りないものと導入方法を表示して終了するので、その内容をそのまま伝えればよい。
 
 ### Step 4: 納品
 output.pptx をユーザーに提示する（成果物として送る）。あわせて次を伝える:
@@ -345,3 +359,11 @@ output.pptx をユーザーに提示する（成果物として送る）。あ�
 - **元スライドの図が digest から読み取れない**: `media/` の画像を直接見て、figure で描き直す。
 - **`unsupported` が出た**: OLE埋め込みなどで中身が取れていない。元ファイルを開いて確認する。
   分からないまま省略せず、取り込めなかった事実を利用者に伝える。
+
+### 目視QAのトラブル
+- **「PNG目視QAに必要なツールがありません」**: 表の該当行のコマンドで導入する。
+  導入できない環境なら、未実施であることを明示して納品する。
+- **「PDFまでは作れましたが、PNGにするツールがありません」**: `poppler-utils` か
+  `python -m pip install pymupdf` を入れる。PDF は残るので、PDF を直接見て確認してもよい。
+- **クラウド環境で毎回消える**: コンテナは破棄されるたびに初期化される。
+  リポジトリの `.claude/hooks/` にセットアップを置いて、起動時に自動導入する。

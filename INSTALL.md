@@ -57,6 +57,26 @@ python -m pip install python-pptx pillow pypdf
 ここで入らなくても `.pptx` の作成・変換は動くので、失敗しても止まらず STEP 5 へ進み、
 入らなかった事実を報告に含めること。
 
+#### 目視QA（仕上がりの確認）について
+
+スキルは納品前に全ページをPNG化して目視確認する。その仕組みは環境で変わるが、
+**利用者が手順を使い分ける必要はない**（`assets/render.py` が自動判別する）。
+
+| 環境 | 使われる経路 | 必要なもの |
+|---|---|---|
+| Windows + PowerPoint | PowerPoint COM（最も忠実） | `python -m pip install pywin32` |
+| Windows（PowerPointなし） | LibreOffice → PDF → PNG | LibreOffice |
+| Linux / クラウド | LibreOffice → PDF → PNG | `libreoffice-impress` と `poppler-utils` |
+
+Windows で PowerPoint がある場合は、次を入れておくと最も忠実に確認できる。
+
+```powershell
+python -m pip install pywin32
+```
+
+これも任意。入らなければ LibreOffice 経由になり、どちらも無ければ目視QAは飛ばして
+「未実施」と明示して納品する運用になる。
+
 ### STEP 5: 検証する
 
 ```powershell
@@ -65,9 +85,10 @@ Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\template.pptx"
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\SKILL.md"
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\build.py"
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\extract.py"
+Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\render.py"
 ```
 
-**5つすべて成功（`libs OK ...` の表示 ＋ `True` が4つ）で合格**。
+**6つすべて成功（`libs OK ...` の表示 ＋ `True` が5つ）で合格**。
 1つでも欠けていれば未完了として扱い、どれが欠けたかを具体的に報告する。
 
 `pypdf` は任意なので、この5項目には含めない。入っているかは次で確かめられる（合否には影響しない）。
