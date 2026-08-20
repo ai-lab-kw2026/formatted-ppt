@@ -1,0 +1,169 @@
+{
+  "title": "生成AI、はじめました",
+  "subtitle": "ひとりで複数の事業会社を担当しながら考えたこと",
+  "date": "住友商事株式会社 ｜ 2026年8月20日",
+  "thanks": "ご清聴ありがとうございました。",
+  "toc": false,
+  "slides": [
+    {
+      "type": "content",
+      "title": "今日は4つのことをお話しします",
+      "figure": {
+        "viewBox": [1180, 420],
+        "shapes": [
+          {"kind": "text", "x": 20, "y": 8, "w": 240, "h": 40, "text": "1", "size": 22, "bold": true, "align": "c", "color": "teal"},
+          {"kind": "roundRect", "x": 20, "y": 56, "w": 240, "h": 340, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "なぜ生成AIを", "size": 18, "bold": true}, {"text": "使い始めたか", "size": 18, "bold": true}]},
+          {"kind": "arrow", "points": [[264, 226], [316, 226]], "color": "teal"},
+          {"kind": "text", "x": 320, "y": 8, "w": 240, "h": 40, "text": "2", "size": 22, "bold": true, "align": "c", "color": "teal"},
+          {"kind": "roundRect", "x": 320, "y": 56, "w": 240, "h": 340, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "使っている", "size": 18, "bold": true}, {"text": "道具とスキル", "size": 18, "bold": true}]},
+          {"kind": "arrow", "points": [[564, 226], [616, 226]], "color": "teal"},
+          {"kind": "text", "x": 620, "y": 8, "w": 240, "h": 40, "text": "3", "size": 22, "bold": true, "align": "c", "color": "teal"},
+          {"kind": "roundRect", "x": 620, "y": 56, "w": 240, "h": 340, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "実際にやっている", "size": 18, "bold": true}, {"text": "自動化の例", "size": 18, "bold": true}]},
+          {"kind": "arrow", "points": [[864, 226], [916, 226]], "color": "teal"},
+          {"kind": "text", "x": 920, "y": 8, "w": 240, "h": 40, "text": "4", "size": 22, "bold": true, "align": "c", "color": "teal"},
+          {"kind": "roundRect", "x": 920, "y": 56, "w": 240, "h": 340, "radius": 12, "fill": "teal",
+           "lines": [{"text": "これから", "size": 18, "bold": true}, {"text": "大事にしたいこと", "size": 18, "bold": true}]}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "きっかけは、担当する会社が増えたことだった",
+      "figure": {
+        "viewBox": [1180, 480],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 160, "h": 90, "radius": 8, "fill": "teal", "text": "状況", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 200, "y": 20, "w": 960, "h": 90, "radius": 8, "fill": "pale", "line": "grayLine", "text": "複数の事業会社を一人で担当", "size": 18, "align": "l"},
+          {"kind": "roundRect", "x": 20, "y": 130, "w": 160, "h": 90, "radius": 8, "fill": "teal", "text": "課題", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 200, "y": 130, "w": 960, "h": 90, "radius": 8, "fill": "pale", "line": "grayLine", "text": "一社ごとに十分な時間をかけられない", "size": 18, "align": "l"},
+          {"kind": "roundRect", "x": 20, "y": 240, "w": 160, "h": 90, "radius": 8, "fill": "teal", "text": "気づき", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 200, "y": 240, "w": 960, "h": 90, "radius": 8, "fill": "pale", "line": "grayLine", "text": "棚卸しすると、毎月同じような仕事が多い", "size": 18, "align": "l"},
+          {"kind": "roundRect", "x": 20, "y": 350, "w": 160, "h": 90, "radius": 8, "fill": "teal", "text": "方針", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 200, "y": 350, "w": 960, "h": 90, "radius": 8, "fill": "pale", "line": "grayLine", "text": "効率化できる部分はデジタルの力に任せる", "size": 18, "align": "l"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "生成AIは月3,000円台のプランを3つ使っている",
+      "figure": {
+        "viewBox": [1180, 440],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "Claude", "size": 22, "bold": true, "color": "teal"}, {"text": "月3,000円台のプラン", "size": 18}]},
+          {"kind": "roundRect", "x": 410, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "ChatGPT", "size": 22, "bold": true, "color": "teal"}, {"text": "月3,000円台のプラン", "size": 18}]},
+          {"kind": "roundRect", "x": 800, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "Gemini", "size": 22, "bold": true, "color": "teal"}, {"text": "月3,000円台のプラン", "size": 18}]},
+          {"kind": "text", "x": 20, "y": 385, "w": 1140, "h": 44, "text": "いずれも上位の高額プランは使っていない", "size": 16, "align": "c", "color": "ink"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "プログラミングの基礎が、生成AI活用の土台になった",
+      "figure": {
+        "viewBox": [1180, 480],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "これまで触ってきたもの", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 20, "y": 110, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine", "text": "Python、SQL、Rを少しずつ", "size": 18},
+          {"kind": "roundRect", "x": 20, "y": 270, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine", "text": "ターミナル操作、Excelマクロ", "size": 18},
+          {"kind": "line", "points": [[590, 10], [590, 450]], "color": "grayLine", "width": 2},
+          {"kind": "roundRect", "x": 620, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "今につながる考え方", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 620, "y": 110, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine", "text": "定型作業はプログラムに任せた方が早い", "size": 18},
+          {"kind": "roundRect", "x": 620, "y": 270, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine", "text": "その延長線上で生成AIを使っている感覚", "size": 18}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "ツールを自分で作る選択肢が、コストと時間を大幅に削減した",
+      "figure": {
+        "viewBox": [1180, 400],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "タスク管理", "size": 20, "bold": true, "color": "teal"}, {"text": "自分用のシンプルな", "size": 17}, {"text": "ツールを自作", "size": 17}]},
+          {"kind": "roundRect", "x": 410, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "BIツール", "size": 20, "bold": true, "color": "teal"}, {"text": "担当5社のバラバラな", "size": 17}, {"text": "業績フォーマットを一元管理", "size": 17}]},
+          {"kind": "roundRect", "x": 800, "y": 20, "w": 360, "h": 340, "radius": 14, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "子会社のHP", "size": 20, "bold": true, "color": "teal"}, {"text": "外注なら約100万円", "size": 17}, {"text": "自分で制作", "size": 17}]}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "毎日のニュース配信を自動化し、月100分を取り戻した",
+      "figure": {
+        "viewBox": [1180, 540],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 320, "h": 160, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "①", "size": 18, "bold": true, "color": "teal"}, {"text": "朝7時に自動で", "size": 17}, {"text": "ニュースを取得", "size": 17}]},
+          {"kind": "arrow", "points": [[344, 100], [396, 100]], "color": "teal"},
+          {"kind": "roundRect", "x": 420, "y": 20, "w": 320, "h": 160, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "②", "size": 18, "bold": true, "color": "teal"}, {"text": "Boxに保存", "size": 17}]},
+          {"kind": "arrow", "points": [[744, 100], [796, 100]], "color": "teal"},
+          {"kind": "roundRect", "x": 820, "y": 20, "w": 320, "h": 160, "radius": 12, "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "③", "size": 18, "bold": true, "color": "teal"}, {"text": "メールで", "size": 17}, {"text": "自動送信", "size": 17}]},
+          {"kind": "text", "x": 20, "y": 200, "w": 1140, "h": 44, "text": "課題：忘れる日がある、休みの日は届かない", "size": 16, "color": "ink", "align": "c"},
+          {"kind": "line", "points": [[20, 258], [1160, 258]], "color": "grayLine"},
+          {"kind": "roundRect", "x": 190, "y": 282, "w": 800, "h": 230, "radius": 16, "fill": "teal",
+           "lines": [{"text": "月100分（約1.5時間）削減", "size": 30, "bold": true}, {"text": "自動化で「忘れ」「届かない日」がゼロに", "size": 18}]}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "自動化は仕事だけでなく、暮らしにも広がっている",
+      "figure": {
+        "viewBox": [1180, 480],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "仕事での自動化", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 20, "y": 110, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "生成AI関連ニュースをXから", "size": 17}, {"text": "自動収集しSlackへ通知", "size": 17}]},
+          {"kind": "roundRect", "x": 20, "y": 270, "w": 540, "h": 100, "radius": 8, "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "精度はまだ発展途上、少しずつ改善中", "size": 17, "color": "ink"}]},
+          {"kind": "line", "points": [[590, 10], [590, 450]], "color": "grayLine", "width": 2},
+          {"kind": "roundRect", "x": 620, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "暮らしでの自動化", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 620, "y": 110, "w": 540, "h": 140, "radius": 8, "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "子どもの英語教室の", "size": 17}, {"text": "予約枠を自動で確保", "size": 17}]},
+          {"kind": "roundRect", "x": 620, "y": 270, "w": 540, "h": 100, "radius": 8, "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "日曜21時に受付開始、争奪戦になる人気枠", "size": 17, "color": "ink"}]}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "弱みはAIに任せ、強みは自分で担う",
+      "figure": {
+        "viewBox": [1180, 500],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "AIに任せること", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 20, "y": 110, "w": 540, "h": 200, "radius": 8, "fill": "pale", "line": "teal", "lineWidth": 1,
+           "lines": [{"text": "イラストやデザインは", "size": 18}, {"text": "生成AIに任せる", "size": 18}]},
+          {"kind": "line", "points": [[590, 10], [590, 395]], "color": "grayLine", "width": 2},
+          {"kind": "roundRect", "x": 620, "y": 20, "w": 540, "h": 70, "radius": 8, "fill": "teal", "text": "自分がやること", "size": 18, "bold": true},
+          {"kind": "roundRect", "x": 620, "y": 110, "w": 540, "h": 200, "radius": 8, "fill": "pale", "line": "teal", "lineWidth": 1,
+           "lines": [{"text": "人とのコミュニケーションや", "size": 18}, {"text": "判断は自分がやる", "size": 18}]},
+          {"kind": "roundRect", "x": 20, "y": 400, "w": 1140, "h": 70, "radius": 8, "fill": "pale", "line": "grayLine",
+           "text": "できるところはどんどんテクノロジーに渡す、最終チェックは自分で", "size": 17, "align": "c"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "title": "怖がらずに、まず使ってみることが大切だ",
+      "figure": {
+        "viewBox": [1180, 500],
+        "shapes": [
+          {"kind": "text", "x": 40, "y": 20, "w": 1100, "h": 50, "text": "生成AIの利用経験率（2026年2月調査、前年29.0%から増加）", "size": 18, "align": "c", "color": "ink"},
+          {"kind": "roundRect", "x": 190, "y": 90, "w": 800, "h": 260, "radius": 16, "fill": "teal", "text": "54.7%", "size": 72, "bold": true},
+          {"kind": "roundRect", "x": 100, "y": 380, "w": 980, "h": 80, "radius": 10, "fill": "pale", "line": "teal",
+           "text": "怖がらずに、小さいことから使ってみる", "size": 20, "bold": true, "align": "c"}
+        ]
+      }
+    }
+  ]
+}
