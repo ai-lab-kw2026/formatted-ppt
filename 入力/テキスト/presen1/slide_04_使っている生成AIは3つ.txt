@@ -1,0 +1,26 @@
+参照画像（このフォルダ内の画像。配色・雰囲気・余白のルールをここから踏襲すること）:
+1. /Users/kazumichiwada/Library/CloudStorage/OneDrive-個人用/趣味/資料作成デモ/参考/slide_01_AIで資料づくりを自動化する.png
+2. /Users/kazumichiwada/Library/CloudStorage/OneDrive-個人用/趣味/資料作成デモ/参考/slide_02_資料作成の3ステップ.png
+3. /Users/kazumichiwada/Library/CloudStorage/OneDrive-個人用/趣味/資料作成デモ/参考/slide_03_これまでとこれから.png
+4. /Users/kazumichiwada/Library/CloudStorage/OneDrive-個人用/趣味/資料作成デモ/参考/slide_04_ひとことの指示で10枚.png
+5. /Users/kazumichiwada/Library/CloudStorage/OneDrive-個人用/趣味/資料作成デモ/参考/slide_05_完成までの流れ.png
+
+対象スライド: スライド4 使っている生成AIは3つ
+
+16:9のスライドを作成する。
+レイアウト: 3カラムのカード列。Claude、ChatGPT、Geminiのカードを横に3枚並べ、それぞれのカードに料金プランを記載する。カードの下（全体の下部）に補足テキストを一行添える。
+
+表示テキスト（これだけを描く。カードは必ず3枚描く）:
+- カード1（Claude）: 月3,000円台のプラン
+- カード2（ChatGPT）: 月3,000円台のプラン
+- カード3（Gemini）: 月3,000円台のプラン
+- 補足: いずれも上位の高額プランは使っていない
+---
+必ず守ること:
+- サイズ: 16:9、2048x1152
+- 言語: 日本語のみ。絵文字は使わない
+- 余白: 上下に余白を空け、文字が画面の端で切れないようにする
+- 文言: 下記「表示テキスト」に書かれた文言だけを描く。勝手に文言を足したり言い換えたりしない
+- 個数指定がある場合（例：3つ、4つ）は、必ずその数だけ描く。空き枠や余分な枠を作らない
+- 参照画像と同じ配色・同じ雰囲気・同じ余白のルールで作ること
+
