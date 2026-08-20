@@ -48,10 +48,14 @@ python --version
 ### STEP 4: 依存ライブラリを入れる
 
 ```powershell
-python -m pip install python-pptx pillow
+python -m pip install python-pptx pillow pypdf
 ```
 
 `pip` ではなく `python -m pip` を使うこと（複数 Python 環境での誤インストールを避けるため）。
+
+`pypdf` は、既存スライドを住商フォーマットに変換する機能で **PDF を読むときだけ** 使う。
+ここで入らなくても `.pptx` の作成・変換は動くので、失敗しても止まらず STEP 5 へ進み、
+入らなかった事実を報告に含めること。
 
 ### STEP 5: 検証する
 
@@ -60,10 +64,17 @@ python -c "import pptx, PIL; print('libs OK', pptx.__version__, PIL.__version__)
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\template.pptx"
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\SKILL.md"
 Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\build.py"
+Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\extract.py"
 ```
 
-**4つすべて成功（`libs OK ...` の表示 ＋ `True` が3つ）で合格**。
+**5つすべて成功（`libs OK ...` の表示 ＋ `True` が4つ）で合格**。
 1つでも欠けていれば未完了として扱い、どれが欠けたかを具体的に報告する。
+
+`pypdf` は任意なので、この5項目には含めない。入っているかは次で確かめられる（合否には影響しない）。
+
+```powershell
+python -c "import pypdf; print('pypdf OK', pypdf.__version__)"
+```
 
 ### STEP 6: 報告する
 
@@ -87,3 +98,11 @@ Test-Path "$env:USERPROFILE\.claude\skills\sumitomo-pptx\assets\build.py"
 品質ルール（1枚1メッセージ・言い切りタイトル・図はネイティブ図形・16pt下限・PNG目視QA・
 spec.json の保存）は SKILL.md に内蔵されているため、**利用者が毎回指定する必要はありません**。
 その資料固有の事情（枚数の上限、読み手、章扉の見せ方など）だけを書き足せば足ります。
+
+既存スライドの変換も試せます。手元の `.pptx` を1つ用意して、次のように頼みます。
+
+> このスライドを住商フォーマットに変換して
+
+体裁を差し替えるだけでなく、タイトルを言い切りの文に書き換え、1枚1メッセージに割り直し、
+図はネイティブ図形で描き直します。**枚数は元と変わります。**
+何をどう変えたかは、成果物と一緒に置かれる `mapping.md` で確認できます。
