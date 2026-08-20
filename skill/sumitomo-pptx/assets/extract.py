@@ -75,6 +75,19 @@ VECTOR_EXT = {".emf", ".wmf", ".svg"}
 # 写真として引き継ぐ候補になりやすい形式
 PHOTO_EXT = {".jpg", ".jpeg"}
 
+# GraphicFrame の中身を見分けるための名前空間
+NS_A = "http://schemas.openxmlformats.org/drawingml/2006/main"
+NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+NS_DGM = "http://schemas.openxmlformats.org/drawingml/2006/diagram"
+NS_OLE = "http://schemas.openxmlformats.org/presentationml/2006/ole"
+# graphicData/@uri → 人が読める名前
+GRAPHIC_KINDS = {
+    NS_DGM: "SmartArt",
+    NS_OLE: "OLE埋め込みオブジェクト",
+    "http://schemas.openxmlformats.org/drawingml/2006/table": "表",
+    "http://schemas.openxmlformats.org/drawingml/2006/chart": "グラフ",
+}
+
 
 # ---------------------------------------------------------------- 位置・書式
 
@@ -260,13 +273,100 @@ def _save_picture(shape, media_dir, slide_no, seq):
     return path, px[0], px[1]
 
 
+# ------------------------------------------------- SmartArt / OLE など特殊枠
+
+def _graphic_uri(shape):
+    """GraphicFrame の graphicData/@uri を返す。GraphicFrame でなければ None。"""
+    el = shape.element
+    if el.tag != "{http://schemas.openxmlformats.org/presentationml/2006/main}graphicFrame":
+        return None
+    gd = el.find(".//{%s}graphicData" % NS_A)
+    return gd.get("uri") if gd is not None else None
+
+
+def _smartart_nodes(shape):
+    """SmartArt のテキストを取り出す。
+
+    SmartArt の文字はスライド本体ではなく ppt/diagrams/data#.xml にある。
+    graphicFrame の dgm:relIds/@r:dm がその関連付けを指しているので、
+    リレーションを辿ってノードごとのテキストを拾う。
+    """
+    rel_ids = shape.element.find(".//{%s}relIds" % NS_DGM)
+    if rel_ids is None:
+        return []
+    rid = rel_ids.get("{%s}dm" % NS_R)
+    if not rid:
+        return []
+    try:
+        blob = shape.part.rels[rid].target_part.blob
+    except Exception:
+        return []
+    try:
+        from lxml import etree
+        root = etree.fromstring(blob)
+    except Exception:
+        return []
+
+    nodes, seen = [], set()
+    for pt in root.iter("{%s}pt" % NS_DGM):
+        lines = []
+        for para in pt.iter("{%s}p" % NS_A):
+            text = "".join(t.text or "" for t in para.iter("{%s}t" % NS_A)).strip()
+            if text:
+                lines.append(text)
+        if not lines:
+            continue
+        joined = "\n".join(lines)
+        # 同じ内容の点（プレゼン用の複製）が並ぶことがあるので重複は落とす
+        if joined not in seen:
+            seen.add(joined)
+            nodes.append(joined)
+    return nodes
+
+
+def _graphic_entry(shape, uri, pos):
+    """表・グラフ以外の GraphicFrame を digest の1項目にする。
+
+    ここで拾えなくても「拾えなかった」ことは必ず残す。無言で落とすと、
+    元スライドに図があった事実そのものが変換時に見えなくなるため。
+    """
+    kind = GRAPHIC_KINDS.get(uri, "不明な埋め込み")
+
+    if uri == NS_DGM:
+        nodes = _smartart_nodes(shape)
+        entry = {"type": "smartart", "pos": pos, "nodes": nodes}
+        if nodes:
+            entry["text"] = "\n".join(nodes)
+            entry["note"] = ("SmartArt。テキストは取得済み。figure で描き直すこと"
+                             "（元の図形は引き継がれない）。")
+        else:
+            entry["note"] = ("SmartArt だがテキストを取得できなかった。"
+                             "元ファイルを開いて内容を確認し、figure で描き直すこと。")
+        return entry
+
+    return {
+        "type": "unsupported",
+        "pos": pos,
+        "graphic": kind,
+        "graphicUri": uri,
+        "note": ("%s は抽出できない。元ファイルを開いて内容を確認し、"
+                 "figure で描き直すか、写真なら画像として貼ること。" % kind),
+    }
+
+
 # ---------------------------------------------------------------- 図形の走査
 
 def _walk(shapes, sw, sh, slide_no, media_dir, out, counter):
     """図形ツリーを z 順に走査する。グループは中身に展開する。"""
     for shape in shapes:
+        # shape_type は種類によっては例外を投げるので、一度だけ安全に取る
+        try:
+            stype = str(shape.shape_type)
+        except Exception:
+            stype = ""
+
         # グループは再帰。グループ自体は記録しない（中身が本体なので）
-        if shape.shape_type is not None and "GROUP" in str(shape.shape_type):
+        if "GROUP" in stype:
             try:
                 _walk(shape.shapes, sw, sh, slide_no, media_dir, out, counter)
             except Exception:
@@ -297,8 +397,14 @@ def _walk(shapes, sw, sh, slide_no, media_dir, out, counter):
             out.append(chart)
             continue
 
+        # 表・グラフ以外の GraphicFrame（SmartArt / OLE など）
+        uri = _graphic_uri(shape)
+        if uri is not None:
+            out.append(_graphic_entry(shape, uri, pos))
+            continue
+
         # 画像
-        if shape.shape_type is not None and "PICTURE" in str(shape.shape_type):
+        if "PICTURE" in stype:
             counter["pic"] += 1
             if media_dir:
                 path, pw, ph = _save_picture(
@@ -489,6 +595,16 @@ def to_markdown(digest):
                     entry.get("w"), entry.get("h")))
             elif kind == "chart":
                 out.append("- **[グラフ]** 系列 %d" % len(entry.get("series", [])))
+            elif kind == "smartart":
+                nodes = entry.get("nodes") or []
+                out.append("- **[SmartArt]** ノード %d" % len(nodes))
+                for node in nodes:
+                    for k, line in enumerate(node.split("\n")):
+                        out.append("  %s%s" % ("・" if k == 0 else "  ", line))
+                out.append("  > %s" % entry.get("note", ""))
+            elif kind == "unsupported":
+                out.append("- **[未対応: %s]**" % entry.get("graphic", "?"))
+                out.append("  > %s" % entry.get("note", ""))
             else:
                 label = "[%s]" % role
                 for j, para in enumerate(entry.get("paragraphs") or []):
@@ -546,10 +662,21 @@ def main():
         with open(args.md, "w", encoding="utf-8") as fh:
             fh.write(to_markdown(digest))
 
-    pics = sum(1 for s in digest["slides"] for e in s["shapes"]
-               if e["type"] == "picture")
-    print("OK: %s  slides=%d  画像=%d" % (
-        args.output, len(digest["slides"]), pics))
+    def _count(kind):
+        return sum(1 for s in digest["slides"] for e in s["shapes"]
+                   if e["type"] == kind)
+
+    msg = "OK: %s  slides=%d  画像=%d" % (
+        args.output, len(digest["slides"]), _count("picture"))
+    smart, unsup = _count("smartart"), _count("unsupported")
+    if smart:
+        msg += "  SmartArt=%d" % smart
+    if unsup:
+        msg += "  未対応=%d" % unsup
+    print(msg)
+    if smart or unsup:
+        print("  ※ SmartArt/未対応の図があります。digest.md の該当箇所を確認し、"
+              "figure で描き直してください。")
 
 
 if __name__ == "__main__":
