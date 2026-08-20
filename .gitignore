@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# 目視QA用のレンダリング（pptx から再生成できる派生物）
+render/
