@@ -1,0 +1,1909 @@
+{
+  "source": "Schedule_Hub_紹介資料.pptx",
+  "kind": "pptx",
+  "slideSize": {
+    "w": 12192000,
+    "h": 6858000,
+    "aspect": 1.778
+  },
+  "slides": [
+    {
+      "index": 1,
+      "layout": "Title Slide",
+      "shapes": [
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.0694,
+            "w": 0.1234,
+            "h": 0.0389
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#102A43",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.05,
+            "y": 0.0708,
+            "w": 0.1109,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "なぜ作ったのか",
+              "level": 0,
+              "bullet": false,
+              "size": 9.8,
+              "bold": true
+            }
+          ],
+          "text": "なぜ作ったのか",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.1417,
+            "w": 0.7188,
+            "h": 0.0889
+          },
+          "paragraphs": [
+            {
+              "text": "予定は、いろいろな場所に散らばっていた。",
+              "level": 0,
+              "bullet": false,
+              "size": 30.0,
+              "bold": true
+            }
+          ],
+          "text": "予定は、いろいろな場所に散らばっていた。",
+          "shapeKind": "rect",
+          "roleHint": "title"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.2361,
+            "w": 0.6641,
+            "h": 0.0472
+          },
+          "paragraphs": [
+            {
+              "text": "家族の予定を一つに把握できず、気づいたときには当日を迎えてしまう。",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": false
+            }
+          ],
+          "text": "家族の予定を一つに把握できず、気づいたときには当日を迎えてしまう。",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0547,
+            "y": 0.375,
+            "w": 0.1719,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.2812,
+            "y": 0.375,
+            "w": 0.1719,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.5078,
+            "y": 0.375,
+            "w": 0.1109,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6562,
+            "y": 0.375,
+            "w": 0.2375,
+            "h": 0.3361
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#EAF3FF",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0672,
+            "y": 0.3958,
+            "w": 0.0328,
+            "h": 0.05
+          },
+          "paragraphs": [
+            {
+              "text": "💬",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": false
+            }
+          ],
+          "text": "💬",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.1031,
+            "y": 0.4042,
+            "w": 0.1078,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "LINEの連絡",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "LINEの連絡",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.2938,
+            "y": 0.3958,
+            "w": 0.0328,
+            "h": 0.05
+          },
+          "paragraphs": [
+            {
+              "text": "📷",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": false
+            }
+          ],
+          "text": "📷",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3297,
+            "y": 0.4042,
+            "w": 0.1078,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "紙カレンダー",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "紙カレンダー",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.5266,
+            "y": 0.3958,
+            "w": 0.0328,
+            "h": 0.05
+          },
+          "paragraphs": [
+            {
+              "text": "🌿",
+              "level": 0,
+              "bullet": false,
+              "size": 19.5,
+              "bold": false
+            }
+          ],
+          "text": "🌿",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6836,
+            "y": 0.4139,
+            "w": 0.1844,
+            "h": 0.0556
+          },
+          "paragraphs": [
+            {
+              "text": "ひとつに統合",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": true
+            }
+          ],
+          "text": "ひとつに統合",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.518,
+            "y": 0.4444,
+            "w": 0.0906,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "TimeTree",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            }
+          ],
+          "text": "TimeTree",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6844,
+            "y": 0.4917,
+            "w": 0.1812,
+            "h": 0.1111
+          },
+          "paragraphs": [
+            {
+              "text": "「あとで確認しよう」を",
+              "level": 0,
+              "bullet": false,
+              "size": 17.2,
+              "bold": true
+            },
+            {
+              "text": "「予定として見える」へ",
+              "level": 0,
+              "bullet": false,
+              "size": 17.2,
+              "bold": true
+            }
+          ],
+          "text": "「あとで確認しよう」を\n「予定として見える」へ",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0547,
+            "y": 0.5167,
+            "w": 0.1719,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.2812,
+            "y": 0.5167,
+            "w": 0.1719,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.5078,
+            "y": 0.5167,
+            "w": 0.1109,
+            "h": 0.1056
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0672,
+            "y": 0.5375,
+            "w": 0.0328,
+            "h": 0.05
+          },
+          "paragraphs": [
+            {
+              "text": "🎙",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": false
+            }
+          ],
+          "text": "🎙",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.2938,
+            "y": 0.5375,
+            "w": 0.0328,
+            "h": 0.05
+          },
+          "paragraphs": [
+            {
+              "text": "📄",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": false
+            }
+          ],
+          "text": "📄",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.5266,
+            "y": 0.5389,
+            "w": 0.0328,
+            "h": 0.0472
+          },
+          "paragraphs": [
+            {
+              "text": "◉",
+              "level": 0,
+              "bullet": false,
+              "size": 19.5,
+              "bold": false
+            }
+          ],
+          "text": "◉",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.1031,
+            "y": 0.5458,
+            "w": 0.1078,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "音声テキスト",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "音声テキスト",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3297,
+            "y": 0.5458,
+            "w": 0.1078,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "学校PDF",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "学校PDF",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.518,
+            "y": 0.5861,
+            "w": 0.0906,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "伝助",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            }
+          ],
+          "text": "伝助",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6844,
+            "y": 0.6319,
+            "w": 0.1812,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "Schedule Hub",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            }
+          ],
+          "text": "Schedule Hub",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.7806,
+            "w": 0.9125,
+            "h": 0.0028
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#102A43",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.1922,
+            "y": 0.8097,
+            "w": 0.7383,
+            "h": 0.0639
+          },
+          "paragraphs": [
+            {
+              "text": "分散した予定情報を自動で整理し、確認したものだけをGoogle Calendarに集約する。",
+              "level": 0,
+              "bullet": false,
+              "size": 18.8,
+              "bold": true
+            }
+          ],
+          "text": "分散した予定情報を自動で整理し、確認したものだけをGoogle Calendarに集約する。",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.8194,
+            "w": 0.1406,
+            "h": 0.0389
+          },
+          "paragraphs": [
+            {
+              "text": "目指したこと",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": true
+            }
+          ],
+          "text": "目指したこと",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9375,
+            "w": 0.9125,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9542,
+            "w": 0.1719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "SCHEDULE HUB",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": true
+            }
+          ],
+          "text": "SCHEDULE HUB",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8844,
+            "y": 0.9542,
+            "w": 0.0719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "1 / 3",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": false
+            }
+          ],
+          "text": "1 / 3",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        }
+      ],
+      "notes": "[Sources]\n- Product facts and workflow: CURRENT_HANDOFF.md (2026-08-23), sections 1–4.\n[/Sources]"
+    },
+    {
+      "index": 2,
+      "layout": "Title Slide",
+      "shapes": [
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.0694,
+            "w": 0.0734,
+            "h": 0.0389
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#2563EB",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.05,
+            "y": 0.0708,
+            "w": 0.0609,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "仕組み",
+              "level": 0,
+              "bullet": false,
+              "size": 9.8,
+              "bold": true
+            }
+          ],
+          "text": "仕組み",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.1417,
+            "w": 0.8203,
+            "h": 0.0778
+          },
+          "paragraphs": [
+            {
+              "text": "AIで整理し、人が確認してから、Google Calendarへ。",
+              "level": 0,
+              "bullet": false,
+              "size": 27.8,
+              "bold": true
+            }
+          ],
+          "text": "AIで整理し、人が確認してから、Google Calendarへ。",
+          "shapeKind": "rect",
+          "roleHint": "title"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.2278,
+            "w": 0.8594,
+            "h": 0.0444
+          },
+          "paragraphs": [
+            {
+              "text": "Google Calendarを唯一の正本とし、他のツールは「予定を集めるための入力元」として使います。",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": false
+            }
+          ],
+          "text": "Google Calendarを唯一の正本とし、他のツールは「予定を集めるための入力元」として使います。",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3141,
+            "y": 0.3306,
+            "w": 0.2578,
+            "h": 0.4028
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#EAF3FF",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8141,
+            "y": 0.3306,
+            "w": 0.1344,
+            "h": 0.4028
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#EAF8F1",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0516,
+            "y": 0.3583,
+            "w": 0.1812,
+            "h": 0.3472
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#F7F9FC",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3359,
+            "y": 0.3639,
+            "w": 0.2141,
+            "h": 0.0472
+          },
+          "paragraphs": [
+            {
+              "text": "Schedule Hub",
+              "level": 0,
+              "bullet": false,
+              "size": 21.0,
+              "bold": true
+            }
+          ],
+          "text": "Schedule Hub",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6562,
+            "y": 0.3583,
+            "w": 0.1328,
+            "h": 0.1458
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "white",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8297,
+            "y": 0.375,
+            "w": 0.1031,
+            "h": 0.0972
+          },
+          "paragraphs": [
+            {
+              "text": "Google",
+              "level": 0,
+              "bullet": false,
+              "size": 18.0,
+              "bold": true
+            },
+            {
+              "text": "Calendar",
+              "level": 0,
+              "bullet": false,
+              "size": 18.0,
+              "bold": true
+            }
+          ],
+          "text": "Google\nCalendar",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0703,
+            "y": 0.3917,
+            "w": 0.1406,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "入力元",
+              "level": 0,
+              "bullet": false,
+              "size": 16.5,
+              "bold": true
+            }
+          ],
+          "text": "入力元",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6703,
+            "y": 0.3889,
+            "w": 0.1047,
+            "h": 0.0375
+          },
+          "paragraphs": [
+            {
+              "text": "Supabase",
+              "level": 0,
+              "bullet": false,
+              "size": 16.5,
+              "bold": true
+            }
+          ],
+          "text": "Supabase",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3359,
+            "y": 0.4139,
+            "w": 0.2141,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "Vercel",
+              "level": 0,
+              "bullet": false,
+              "size": 11.2,
+              "bold": false
+            }
+          ],
+          "text": "Vercel",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.668,
+            "y": 0.4389,
+            "w": 0.1094,
+            "h": 0.0556
+          },
+          "paragraphs": [
+            {
+              "text": "候補・学習・監査",
+              "level": 0,
+              "bullet": false,
+              "size": 11.2,
+              "bold": false
+            },
+            {
+              "text": "画像を120日保持",
+              "level": 0,
+              "bullet": false,
+              "size": 11.2,
+              "bold": false
+            }
+          ],
+          "text": "候補・学習・監査\n画像を120日保持",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0703,
+            "y": 0.4611,
+            "w": 0.1422,
+            "h": 0.1528
+          },
+          "paragraphs": [
+            {
+              "text": "LINE / ショートカット",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            },
+            {
+              "text": "音声テキスト / 写真",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            },
+            {
+              "text": "学校PDF / TimeTree / 伝助",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "LINE / ショートカット\n音声テキスト / 写真\n学校PDF / TimeTree / 伝助",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3406,
+            "y": 0.4639,
+            "w": 0.2047,
+            "h": 0.0861
+          },
+          "paragraphs": [
+            {
+              "text": "OpenAIが文章・画像・PDFを",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": true
+            },
+            {
+              "text": "予定候補へ整理",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": true
+            }
+          ],
+          "text": "OpenAIが文章・画像・PDFを\n予定候補へ整理",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8297,
+            "y": 0.4931,
+            "w": 0.1031,
+            "h": 0.0389
+          },
+          "paragraphs": [
+            {
+              "text": "唯一の正本",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": true
+            }
+          ],
+          "text": "唯一の正本",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6586,
+            "y": 0.5444,
+            "w": 0.1281,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "Google OAuth",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            }
+          ],
+          "text": "Google OAuth",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8297,
+            "y": 0.5556,
+            "w": 0.1031,
+            "h": 0.0764
+          },
+          "paragraphs": [
+            {
+              "text": "確定後だけ",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            },
+            {
+              "text": "作成・更新・削除",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            }
+          ],
+          "text": "確定後だけ\n作成・更新・削除",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3516,
+            "y": 0.5806,
+            "w": 0.1828,
+            "h": 0.0972
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "white",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6586,
+            "y": 0.5833,
+            "w": 0.1281,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "接続認証",
+              "level": 0,
+              "bullet": false,
+              "size": 10.5,
+              "bold": false
+            }
+          ],
+          "text": "接続認証",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3633,
+            "y": 0.6042,
+            "w": 0.1594,
+            "h": 0.0444
+          },
+          "paragraphs": [
+            {
+              "text": "本人が確認・確定",
+              "level": 0,
+              "bullet": false,
+              "size": 17.2,
+              "bold": true
+            }
+          ],
+          "text": "本人が確認・確定",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0703,
+            "y": 0.6389,
+            "w": 0.1422,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "集める",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": false
+            }
+          ],
+          "text": "集める",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6594,
+            "y": 0.6417,
+            "w": 0.1266,
+            "h": 0.0847
+          },
+          "paragraphs": [
+            {
+              "text": "🌿 TimeTreeは",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            },
+            {
+              "text": "Macエージェントで",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            },
+            {
+              "text": "読み取り専用",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": true
+            }
+          ],
+          "text": "🌿 TimeTreeは\nMacエージェントで\n読み取り専用",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8297,
+            "y": 0.6583,
+            "w": 0.1031,
+            "h": 0.0306
+          },
+          "paragraphs": [
+            {
+              "text": "7日間元に戻せる",
+              "level": 0,
+              "bullet": false,
+              "size": 10.5,
+              "bold": false
+            }
+          ],
+          "text": "7日間元に戻せる",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3398,
+            "y": 0.6917,
+            "w": 0.2047,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "自動反映しない",
+              "level": 0,
+              "bullet": false,
+              "size": 11.2,
+              "bold": false
+            }
+          ],
+          "text": "自動反映しない",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.5938,
+            "y": 0.75,
+            "w": 0.2188,
+            "h": 0.0306
+          },
+          "paragraphs": [
+            {
+              "text": "明示的な確定後のみ",
+              "level": 0,
+              "bullet": false,
+              "size": 11.2,
+              "bold": true
+            }
+          ],
+          "text": "明示的な確定後のみ",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.8111,
+            "w": 0.9125,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.1719,
+            "y": 0.8417,
+            "w": 0.75,
+            "h": 0.0417
+          },
+          "paragraphs": [
+            {
+              "text": "確認なしの登録なし　／　TimeTree・伝助へ書き込まない　／　日時は日本時間",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            }
+          ],
+          "text": "確認なしの登録なし　／　TimeTree・伝助へ書き込まない　／　日時は日本時間",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.8472,
+            "w": 0.1203,
+            "h": 0.0306
+          },
+          "paragraphs": [
+            {
+              "text": "大切なルール",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            }
+          ],
+          "text": "大切なルール",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9375,
+            "w": 0.9125,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9542,
+            "w": 0.1719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "SCHEDULE HUB",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": true
+            }
+          ],
+          "text": "SCHEDULE HUB",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8844,
+            "y": 0.9542,
+            "w": 0.0719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "2 / 3",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": false
+            }
+          ],
+          "text": "2 / 3",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        }
+      ],
+      "notes": "[Sources]\n- Product architecture: CURRENT_HANDOFF.md (2026-08-23), sections 2–7 and TimeTree implementation details.\n[/Sources]"
+    },
+    {
+      "index": 3,
+      "layout": "Title Slide",
+      "shapes": [
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.0694,
+            "w": 0.0594,
+            "h": 0.0389
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#16804B",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.05,
+            "y": 0.0708,
+            "w": 0.0469,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "実例",
+              "level": 0,
+              "bullet": false,
+              "size": 9.8,
+              "bold": true
+            }
+          ],
+          "text": "実例",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.1417,
+            "w": 0.8203,
+            "h": 0.0778
+          },
+          "paragraphs": [
+            {
+              "text": "LINEの案内を、そのまま予定として使える形にする。",
+              "level": 0,
+              "bullet": false,
+              "size": 27.8,
+              "bold": true
+            }
+          ],
+          "text": "LINEの案内を、そのまま予定として使える形にする。",
+          "shapeKind": "rect",
+          "roleHint": "title"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.2278,
+            "w": 0.8438,
+            "h": 0.0444
+          },
+          "paragraphs": [
+            {
+              "text": "タイトル・日付・時刻・場所を取り出し、最後は確認画面で直してから登録します。",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": false
+            }
+          ],
+          "text": "タイトル・日付・時刻・場所を取り出し、最後は確認画面で直してから登録します。",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.35,
+            "w": 0.2812,
+            "h": 0.3972
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#EAF3FF",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3672,
+            "y": 0.35,
+            "w": 0.25,
+            "h": 0.3972
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "white",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6594,
+            "y": 0.35,
+            "w": 0.2656,
+            "h": 0.3972
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#EAF8F1",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0625,
+            "y": 0.3806,
+            "w": 0.2188,
+            "h": 0.0389
+          },
+          "paragraphs": [
+            {
+              "text": "① LINEで届いた案内",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": true
+            }
+          ],
+          "text": "① LINEで届いた案内",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3844,
+            "y": 0.3806,
+            "w": 0.2156,
+            "h": 0.0389
+          },
+          "paragraphs": [
+            {
+              "text": "② 登録前の確認",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": true
+            }
+          ],
+          "text": "② 登録前の確認",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6813,
+            "y": 0.3806,
+            "w": 0.2219,
+            "h": 0.0389
+          },
+          "paragraphs": [
+            {
+              "text": "③ Google Calendar",
+              "level": 0,
+              "bullet": false,
+              "size": 15.8,
+              "bold": true
+            }
+          ],
+          "text": "③ Google Calendar",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3875,
+            "y": 0.4528,
+            "w": 0.2094,
+            "h": 0.0444
+          },
+          "paragraphs": [
+            {
+              "text": "恭佑：自主練",
+              "level": 0,
+              "bullet": false,
+              "size": 16.5,
+              "bold": true
+            }
+          ],
+          "text": "恭佑：自主練",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6813,
+            "y": 0.45,
+            "w": 0.2203,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "8月18日（月）",
+              "level": 0,
+              "bullet": false,
+              "size": 12.8,
+              "bold": false
+            }
+          ],
+          "text": "8月18日（月）",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0672,
+            "y": 0.4583,
+            "w": 0.2313,
+            "h": 0.1361
+          },
+          "paragraphs": [
+            {
+              "text": "「次回は夏合宿明け 8/18",
+              "level": 0,
+              "bullet": false,
+              "size": 18.0,
+              "bold": true
+            },
+            {
+              "text": "11:00〜13:00",
+              "level": 0,
+              "bullet": false,
+              "size": 18.0,
+              "bold": true
+            },
+            {
+              "text": "けやきグラウンドで開催します」",
+              "level": 0,
+              "bullet": false,
+              "size": 18.0,
+              "bold": true
+            }
+          ],
+          "text": "「次回は夏合宿明け 8/18\n11:00〜13:00\nけやきグラウンドで開催します」",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6883,
+            "y": 0.5028,
+            "w": 0.2078,
+            "h": 0.1306
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "white",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3945,
+            "y": 0.5181,
+            "w": 0.1953,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.7016,
+            "y": 0.5222,
+            "w": 0.1812,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "11:00〜13:00",
+              "level": 0,
+              "bullet": false,
+              "size": 12.8,
+              "bold": true
+            }
+          ],
+          "text": "11:00〜13:00",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3937,
+            "y": 0.5417,
+            "w": 0.1969,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "2026/08/18（月）",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": false
+            }
+          ],
+          "text": "2026/08/18（月）",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6969,
+            "y": 0.5611,
+            "w": 0.1906,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "恭佑：自主練",
+              "level": 0,
+              "bullet": false,
+              "size": 14.2,
+              "bold": true
+            }
+          ],
+          "text": "恭佑：自主練",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3937,
+            "y": 0.5875,
+            "w": 0.1969,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "11:00 〜 13:00",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": true
+            }
+          ],
+          "text": "11:00 〜 13:00",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.7039,
+            "y": 0.6014,
+            "w": 0.1766,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "けやきグラウンド",
+              "level": 0,
+              "bullet": false,
+              "size": 10.5,
+              "bold": false
+            }
+          ],
+          "text": "けやきグラウンド",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.3937,
+            "y": 0.6361,
+            "w": 0.1969,
+            "h": 0.0306
+          },
+          "paragraphs": [
+            {
+              "text": "場所：けやきグラウンド",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": false
+            }
+          ],
+          "text": "場所：けやきグラウンド",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0641,
+            "y": 0.6597,
+            "w": 0.2391,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "共有 → ショートカットで送る",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": false
+            }
+          ],
+          "text": "共有 → ショートカットで送る",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.6766,
+            "y": 0.6667,
+            "w": 0.2297,
+            "h": 0.0319
+          },
+          "paragraphs": [
+            {
+              "text": "予定として見える・家族で確認できる",
+              "level": 0,
+              "bullet": false,
+              "size": 12.0,
+              "bold": false
+            }
+          ],
+          "text": "予定として見える・家族で確認できる",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.4227,
+            "y": 0.6847,
+            "w": 0.1391,
+            "h": 0.0389
+          },
+          "paragraphs": [],
+          "shapeKind": "roundRect",
+          "fill": "#2563EB",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.4297,
+            "y": 0.6889,
+            "w": 0.125,
+            "h": 0.0278
+          },
+          "paragraphs": [
+            {
+              "text": "本人が確認・確定",
+              "level": 0,
+              "bullet": false,
+              "size": 10.5,
+              "bold": true
+            }
+          ],
+          "text": "本人が確認・確定",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.8111,
+            "w": 0.9125,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "decoration"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.1297,
+            "y": 0.8417,
+            "w": 0.7891,
+            "h": 0.0444
+          },
+          "paragraphs": [
+            {
+              "text": "文章をそのままタイトルにせず、必要な情報に分けてから、間違いを直せる状態で確認する。",
+              "level": 0,
+              "bullet": false,
+              "size": 15.0,
+              "bold": true
+            }
+          ],
+          "text": "文章をそのままタイトルにせず、必要な情報に分けてから、間違いを直せる状態で確認する。",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.8472,
+            "w": 0.0781,
+            "h": 0.0333
+          },
+          "paragraphs": [
+            {
+              "text": "ポイント",
+              "level": 0,
+              "bullet": false,
+              "size": 13.5,
+              "bold": true
+            }
+          ],
+          "text": "ポイント",
+          "shapeKind": "rect",
+          "roleHint": "body"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9375,
+            "w": 0.9125,
+            "h": 0.0014
+          },
+          "paragraphs": [],
+          "shapeKind": "rect",
+          "fill": "#CFD8E3",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.0437,
+            "y": 0.9542,
+            "w": 0.1719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "SCHEDULE HUB",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": true
+            }
+          ],
+          "text": "SCHEDULE HUB",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        },
+        {
+          "type": "shape",
+          "pos": {
+            "x": 0.8844,
+            "y": 0.9542,
+            "w": 0.0719,
+            "h": 0.025
+          },
+          "paragraphs": [
+            {
+              "text": "3 / 3",
+              "level": 0,
+              "bullet": false,
+              "size": 8.2,
+              "bold": false
+            }
+          ],
+          "text": "3 / 3",
+          "shapeKind": "rect",
+          "roleHint": "caption"
+        }
+      ],
+      "notes": "[Sources]\n- Example derived from supported LINE announcement parsing documented in CURRENT_HANDOFF.md, section 4. Names/date are illustrative.\n[/Sources]"
+    }
+  ]
+}

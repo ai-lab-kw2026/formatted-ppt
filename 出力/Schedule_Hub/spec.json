@@ -1,0 +1,176 @@
+{
+  "title": "Schedule Hub",
+  "subtitle": "分散した予定を、確認したものだけカレンダーへ",
+  "date": "住友商事株式会社 ｜ 2026年8月25日",
+  "toc": false,
+  "slides": [
+    {
+      "type": "content",
+      "section": "なぜ作ったのか",
+      "title": "予定は、いろいろな場所に散らばっていた。",
+      "lead": "家族の予定を一つに把握できず、気づいたときには当日を迎えてしまう。",
+      "figure": {
+        "viewBox": [1180, 440],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 30, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "LINEの連絡", "size": 18},
+          {"kind": "roundRect", "x": 410, "y": 30, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "紙カレンダー", "size": 18},
+          {"kind": "roundRect", "x": 800, "y": 30, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "TimeTree", "size": 18},
+          {"kind": "roundRect", "x": 20, "y": 220, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "音声テキスト", "size": 18},
+          {"kind": "roundRect", "x": 410, "y": 220, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "学校PDF", "size": 18},
+          {"kind": "roundRect", "x": 800, "y": 220, "w": 360, "h": 160, "radius": 12,
+           "fill": "pale", "line": "grayLine", "text": "伝助", "size": 18}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "section": "なぜ作ったのか",
+      "title": "「あとで確認しよう」を「予定として見える」へ変える。",
+      "lead": "分散した予定情報を自動で整理し、確認したものだけをGoogle Calendarに集約する。",
+      "figure": {
+        "viewBox": [1180, 420],
+        "shapes": [
+          {"kind": "roundRect", "x": 40, "y": 70, "w": 460, "h": 240, "radius": 14,
+           "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "これまで", "size": 18, "bold": true, "color": "ink"},
+                     {"text": "「あとで確認しよう」", "size": 22, "bold": true}]},
+          {"kind": "arrow", "points": [[520, 190], [600, 190]], "color": "teal", "width": 3},
+          {"kind": "roundRect", "x": 620, "y": 70, "w": 460, "h": 240, "radius": 14,
+           "fill": "teal",
+           "lines": [{"text": "これから", "size": 18, "bold": true},
+                     {"text": "「予定として見える」", "size": 22, "bold": true}]},
+          {"kind": "text", "x": 40, "y": 335, "w": 1040, "h": 60,
+           "text": "ひとつに統合する", "size": 17, "align": "c", "color": "ink"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "section": "仕組み",
+      "title": "AIで整理し、人が確認してから、Google Calendarへ。",
+      "lead": "Google Calendarを唯一の正本とし、他のツールは「予定を集めるための入力元」として使う。",
+      "figure": {
+        "viewBox": [1180, 460],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 40, "w": 250, "h": 260, "radius": 12,
+           "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "入力元", "size": 19, "bold": true, "color": "teal"},
+                     {"text": "LINE・音声・写真", "size": 16},
+                     {"text": "学校PDF・伝助", "size": 16}]},
+          {"kind": "arrow", "points": [[276, 170], [314, 170]], "color": "teal"},
+          {"kind": "roundRect", "x": 320, "y": 40, "w": 250, "h": 260, "radius": 12,
+           "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "Schedule Hub", "size": 19, "bold": true, "color": "teal"},
+                     {"text": "AIが予定候補へ", "size": 16},
+                     {"text": "整理", "size": 16}]},
+          {"kind": "arrow", "points": [[576, 170], [614, 170]], "color": "teal"},
+          {"kind": "roundRect", "x": 620, "y": 40, "w": 250, "h": 260, "radius": 12,
+           "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "本人が確認", "size": 19, "bold": true, "color": "teal"},
+                     {"text": "自動反映しない", "size": 16}]},
+          {"kind": "arrow", "points": [[876, 170], [914, 170]], "color": "teal"},
+          {"kind": "roundRect", "x": 920, "y": 40, "w": 240, "h": 260, "radius": 12,
+           "fill": "teal",
+           "lines": [{"text": "Google Calendar", "size": 18, "bold": true},
+                     {"text": "唯一の正本", "size": 16}]},
+          {"kind": "text", "x": 20, "y": 330, "w": 1140, "h": 100,
+           "text": "確定後だけ作成・更新・削除／TimeTreeは読み取り専用",
+           "size": 17, "align": "c", "color": "ink"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "section": "仕組み",
+      "title": "確認なしでカレンダーに入る予定は、ひとつもない。",
+      "figure": {
+        "viewBox": [1180, 440],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 40, "w": 360, "h": 230, "radius": 14,
+           "fill": "teal",
+           "lines": [{"text": "確認なしの", "size": 20, "bold": true},
+                     {"text": "登録なし", "size": 20, "bold": true}]},
+          {"kind": "roundRect", "x": 410, "y": 40, "w": 360, "h": 230, "radius": 14,
+           "fill": "teal",
+           "lines": [{"text": "TimeTree・伝助へ", "size": 20, "bold": true},
+                     {"text": "書き込まない", "size": 20, "bold": true}]},
+          {"kind": "roundRect", "x": 800, "y": 40, "w": 360, "h": 230, "radius": 14,
+           "fill": "teal",
+           "lines": [{"text": "日時は", "size": 20, "bold": true},
+                     {"text": "日本時間", "size": 20, "bold": true}]},
+          {"kind": "roundRect", "x": 260, "y": 305, "w": 660, "h": 100, "radius": 10,
+           "fill": "pale", "line": "teal",
+           "text": "万一のときも7日間元に戻せる", "size": 19, "bold": true, "align": "c"}
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "section": "実例",
+      "title": "LINEの案内を、そのまま予定として使える形にする。",
+      "lead": "タイトル・日付・時刻・場所を取り出し、最後は確認画面で直してから登録する。",
+      "figure": {
+        "viewBox": [1180, 480],
+        "shapes": [
+          {"kind": "roundRect", "x": 20, "y": 40, "w": 340, "h": 330, "radius": 12,
+           "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "① LINEで届いた案内", "size": 17, "bold": true, "color": "teal"},
+                     {"text": "「次回は夏合宿明け", "size": 16},
+                     {"text": "8/18 11:00〜13:00", "size": 16},
+                     {"text": "けやきグラウンドで", "size": 16},
+                     {"text": "開催します」", "size": 16}]},
+          {"kind": "arrow", "points": [[368, 205], [412, 205]], "color": "teal"},
+          {"kind": "roundRect", "x": 420, "y": 40, "w": 340, "h": 330, "radius": 12,
+           "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "② 登録前の確認", "size": 17, "bold": true, "color": "teal"},
+                     {"text": "恭佑：自主練", "size": 16},
+                     {"text": "2026/08/18（月）", "size": 16},
+                     {"text": "11:00〜13:00", "size": 16},
+                     {"text": "けやきグラウンド", "size": 16}]},
+          {"kind": "arrow", "points": [[768, 205], [812, 205]], "color": "teal"},
+          {"kind": "roundRect", "x": 820, "y": 40, "w": 340, "h": 330, "radius": 12,
+           "fill": "teal",
+           "lines": [{"text": "③ Google Calendar", "size": 17, "bold": true},
+                     {"text": "恭佑：自主練", "size": 16},
+                     {"text": "8月18日（月）", "size": 16},
+                     {"text": "11:00 〜 13:00", "size": 16},
+                     {"text": "場所：けやきグラウンド", "size": 16}]},
+          {"kind": "text", "x": 420, "y": 385, "w": 340, "h": 70,
+           "text": "本人が確認・確定", "size": 17, "align": "c", "color": "ink"}
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "section": "ポイント",
+      "title": "文章をそのままタイトルにせず、必要な情報に分けて確認する。",
+      "figure": {
+        "viewBox": [1180, 400],
+        "shapes": [
+          {"kind": "roundRect", "x": 40, "y": 50, "w": 340, "h": 200, "radius": 12,
+           "fill": "pale", "line": "grayLine",
+           "lines": [{"text": "分ける", "size": 20, "bold": true, "color": "teal"},
+                     {"text": "タイトル・日付", "size": 16},
+                     {"text": "時刻・場所", "size": 16}]},
+          {"kind": "arrow", "points": [[388, 150], [426, 150]], "color": "teal"},
+          {"kind": "roundRect", "x": 432, "y": 50, "w": 340, "h": 200, "radius": 12,
+           "fill": "pale", "line": "teal", "lineWidth": 2,
+           "lines": [{"text": "直せる", "size": 20, "bold": true, "color": "teal"},
+                     {"text": "確認画面で修正", "size": 16}]},
+          {"kind": "arrow", "points": [[780, 150], [818, 150]], "color": "teal"},
+          {"kind": "roundRect", "x": 824, "y": 50, "w": 316, "h": 200, "radius": 12,
+           "fill": "teal",
+           "lines": [{"text": "見える", "size": 20, "bold": true},
+                     {"text": "家族で確認できる", "size": 16}]},
+          {"kind": "text", "x": 40, "y": 280, "w": 1100, "h": 80,
+           "text": "間違いを直せる状態で確認してから、はじめて登録する", "size": 17, "align": "c", "color": "ink"}
+        ]
+      }
+    }
+  ]
+}
